@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:elevation="3dp"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_image_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:id="@+id/user_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_image_view"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Leonardo de Matos" />
+
+    <TextView
+        android:id="@+id/user_description_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_name_text_view"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/text_color"
+        tools:text="Minha descricao de perfil dentro um usuario dounplash getando loemip alal lkadlde perfil dentro um usuario dounplash getando loemip alal lkadlde perfil dentro um usuario dounplash getando loemip alal lkadlde perfil dentro um usuario dounplash getando loemip alal lkadl" />
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_white_ripple"
+            android:drawableTint="@android:color/black"
+            android:drawableTop="@drawable/ic_people_black"
+            android:text="Followers"
+            android:textColor="@android:color/black"
+            android:textSize="9sp" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_white_ripple"
+            android:drawableTint="@android:color/black"
+            android:drawableTop="@drawable/ic_people_black"
+            android:text="Following"
+            android:textColor="@android:color/black"
+            android:textSize="9sp" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_white_ripple"
+            android:drawableTint="@android:color/black"
+            android:drawableTop="@drawable/ic_heart"
+            android:text="Likes"
+            android:textColor="@android:color/black"
+            android:textSize="9sp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/button_container"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorAccent"
+        android:text="Follow"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>
