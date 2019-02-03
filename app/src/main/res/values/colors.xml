@@ -4,8 +4,9 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#e91e63</color>
 
-    <color name="black">#ffffff</color>
-    <color name="blackish">#cfd8dc</color>
+    <color name="dark_87">#de151c2a</color>
+    <color name="white">#ffffff</color>
+    <color name="whiteish">#cfd8dc</color>
     <color name="white_dark">#bdbdbd</color>
     <color name="text_color">#727272</color>
 </resources>

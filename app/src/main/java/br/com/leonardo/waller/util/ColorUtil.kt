@@ -2,16 +2,12 @@ package br.com.leonardo.waller.util
 
 import android.content.Context
 import android.graphics.Bitmap
-import android.graphics.Color
-import android.support.v4.content.ContextCompat
-import android.support.v7.graphics.Palette
+import android.graphics.drawable.GradientDrawable
 import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.TextView
-import br.com.leonardo.waller.R
-import android.graphics.drawable.GradientDrawable
-import android.R.attr.shape
+import androidx.palette.graphics.Palette
 
 
 
@@ -24,8 +20,8 @@ import android.R.attr.shape
 object ColorUtil {
     fun extractColor(bitmap: Bitmap?, completion: (palette: Palette) -> Unit) {
         if (bitmap != null && !bitmap.isRecycled) {
-            Palette.from(bitmap).generate {
-                completion(it)
+            Palette.from(bitmap).generate {palette ->
+                palette?.let(completion)
             }
         }
     }

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Waller.iml" filepath="$PROJECT_DIR$/Waller.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unplash/unplash.iml" filepath="$PROJECT_DIR$/unplash/unplash.iml" />
     </modules>
   </component>
 </project>

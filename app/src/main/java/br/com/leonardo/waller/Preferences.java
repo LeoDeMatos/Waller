@@ -12,8 +12,7 @@ public class Preferences {
     private static final String PREFERENCE_NAME = "WALL";
     public static final String RANDOM_BUCKET = "RANDOM";
     public static final String LAST_IMAGE = "LAST_IMAGE";
-    public static final String FAVORITES_BUCKET= "FAVORITES_BUCKET";
-
+    public static final String FAVORITES_BUCKET = "FAVORITES_BUCKET";
 
     private static SharedPreferences getSharedPreference(Context context) {
         return context.getSharedPreferences(PREFERENCE_NAME, Context.MODE_PRIVATE);

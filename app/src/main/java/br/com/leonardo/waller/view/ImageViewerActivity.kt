@@ -1,11 +1,11 @@
 package br.com.leonardo.waller.view
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.View
 import android.widget.ImageView
 import br.com.leonardo.waller.R
-import br.com.leonardo.waller.model.Photo
+import br.com.leonardo.core.model.Photo
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.google.gson.Gson

@@ -1,11 +1,11 @@
 package br.com.leonardo.waller.view.adapter.viewHolder
 
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import br.com.leonardo.waller.R
-import br.com.leonardo.waller.model.User
+import br.com.leonardo.core.model.User
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 

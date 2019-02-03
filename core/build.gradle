@@ -1,0 +1,72 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion buildConfig.compileSdk
+
+    defaultConfig {
+        minSdkVersion buildConfig.minSdk
+        targetSdkVersion buildConfig.targetSdk
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField 'String', 'UnplashAPIKey', Waller_Unplash_API_KEY
+            //buildConfigField 'String', 'DribbbleAPIKey', Waller_Dribbble_API_KEY
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            buildConfigField 'String', 'UnplashAPIKey', Waller_Unplash_API_KEY
+        }
+    }
+}
+
+dependencies {
+
+    // Android
+    api 'com.google.android.material:material:1.0.0'
+    api 'com.github.bumptech.glide:glide:3.7.0'
+    api 'de.hdodenhof:circleimageview:2.1.0'
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${versions.kotlin_version}"
+    api 'androidx.palette:palette:1.0.0'
+    api 'androidx.dynamicanimation:dynamicanimation:1.0.0'
+    api 'com.github.chrisbanes:PhotoView:2.0.0'
+
+    api "androidx.lifecycle:lifecycle-extensions:${versions.architectureComponents}"
+
+    api "org.jetbrains.anko:anko:${versions.anko_version}"
+
+    // Dagger core
+    kapt "com.google.dagger:dagger-compiler:${versions.dagger}"
+    api "com.google.dagger:dagger:${versions.dagger}"
+    compileOnly "org.glassfish:javax.annotation:3.1.1"
+
+    // Dagger Android
+    kapt "com.google.dagger:dagger-android-processor:${versions.dagger}"
+    api "com.google.dagger:dagger-android:${versions.dagger}"
+    api "com.google.dagger:dagger-android-support:${versions.dagger}"
+
+    // Kotlin
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    // Navigation Architecture Component
+    api "android.arch.navigation:navigation-fragment-ktx:${versions.navigation}"
+    api "android.arch.navigation:navigation-ui-ktx:${versions.navigation}"
+    api 'android.arch.navigation:navigation-fragment:1.0.0-alpha07'
+
+    api "com.squareup.retrofit2:retrofit:${versions.retrofit}"
+    api "com.squareup.retrofit2:adapter-rxjava2:${versions.retrofitRxJavaAdapter}"
+    api "com.squareup.retrofit2:converter-gson:${versions.retrofit}"
+    api "io.reactivex.rxjava2:rxandroid:${versions.rxAndroid}"
+    api "io.reactivex.rxjava2:rxjava:$versions.rxJava"
+    api 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation "com.squareup.okhttp3:logging-interceptor:${versions.okHttpInterceptor}"
+
+    api 'com.github.jd-alexander:LikeButton:0.2.3'
+}
+repositories {
+    mavenCentral()
+}

@@ -8,7 +8,7 @@ import android.hardware.SensorManager;
 import android.util.AttributeSet;
 import android.widget.RelativeLayout;
 
-public class ParallaxImageView extends android.support.v7.widget.AppCompatImageView implements SensorEventListener {
+public class ParallaxImageView extends androidx.appcompat.widget.AppCompatImageView implements SensorEventListener {
 	float[] rotMat = new float[16];
 	float[] vals = new float[3];
 	//sensor parallax effect

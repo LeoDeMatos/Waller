@@ -2,4 +2,8 @@
     <string name="app_name">Waller</string>
     <string name="set_wallpaper">Set Wallpaper</string>
     <string name="download_wallpaper">Download</string>
+    <string name="title_dribbble">Dribbble</string>
+    <string name="title_core">Core Application</string>
+    <string name="unplash_placeholder">Beautiful, free photos.</string>
+    <string name="search_bar_hint">Search photos</string>
 </resources>

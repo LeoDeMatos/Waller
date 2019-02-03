@@ -1,21 +1,22 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '26.0.3'
+    compileSdkVersion buildConfig.compileSdk
+    buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "br.com.leonardo.waller"
-        minSdkVersion 23
-        targetSdkVersion 26
+        minSdkVersion buildConfig.minSdk
+        targetSdkVersion buildConfig.targetSdk
         versionCode 4
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         debug {
-            buildConfigField 'String', 'UnplashAPIKey', Waller_Unplash_API_KEY
-            buildConfigField 'String', 'DribbbleAPIKey', Waller_Dribbble_API_KEY
+
+//            buildConfigField 'String', 'DribbbleAPIKey', Waller_Dribbble_API_KEY
         }
         release {
             minifyEnabled false
@@ -24,31 +25,20 @@ android {
             buildConfigField 'String', 'UnplashAPIKey', Waller_Unplash_API_KEY
         }
     }
+
+    dynamicFeatures = [':unplash']
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:26.0.1'
-    compile 'com.android.support:design:26.0.1'
-    compile 'io.reactivex:rxandroid:1.2.1'
-    compile 'io.reactivex:rxjava:1.2.3'
-    compile 'com.squareup.retrofit2:retrofit:2.1.0'
-    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
-    compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
-    compile 'com.github.bumptech.glide:glide:3.7.0'
-    compile 'de.hdodenhof:circleimageview:2.1.0'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
-    compile 'com.android.support:palette-v7:26.0.1'
-    compile 'com.android.support:support-dynamic-animation:26.0.1'
-    compile 'com.github.chrisbanes:PhotoView:2.0.0'
-    compile 'com.github.jd-alexander:LikeButton:0.2.3'
+
+    implementation project(path: ':core')
+
+    kapt "com.google.dagger:dagger-compiler:${versions.dagger}"
 }
 repositories {
     mavenCentral()
-    maven{
+    maven {
         url('https://maven.google.com')
     }
-    maven { url ('https://jitpack.io') }
+    maven { url('https://jitpack.io') }
 }
-

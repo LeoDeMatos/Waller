@@ -3,19 +3,16 @@ package br.com.leonardo.waller.model;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
-import okhttp3.Cache;
+import br.com.leonardo.core.UnplashAPI;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
-import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
-import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
+
+import javax.inject.Inject;
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Leonardo de Matos on 04/12/16.
@@ -24,29 +21,32 @@ public class WallerServiceCreator {
 
     private static final String BASE_UNPLASH_URL = "https://api.unsplash.com/";
     private static final String BASE_DRIBBBLE_URL = "https://api.dribbble.com/v1/";
+
     private Context mContext;
 
-    public WallerService create(Context context, boolean isDribbble) {
+    @Inject OkHttpClient okHttpClient;
+
+    public UnplashAPI create(Context context, boolean isDribbble) {
         mContext = context;
         Retrofit restAdapter = new Retrofit.Builder()
                 .baseUrl(isDribbble ? BASE_DRIBBBLE_URL : BASE_UNPLASH_URL)
-                .client(getOkHttpClient())
+                .client(okHttpClient)
                 .addConverterFactory(GsonConverterFactory.create())
-                .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
+//                .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .build();
-        return restAdapter.create(WallerService.class);
+        return restAdapter.create(UnplashAPI.class);
     }
 
     private OkHttpClient getOkHttpClient() {
         OkHttpClient.Builder okClientBuilder = new OkHttpClient.Builder();
 
-        HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor();
-        httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-        okClientBuilder.addInterceptor(httpLoggingInterceptor);
-        okClientBuilder.addNetworkInterceptor(REWRITE_RESPONSE_INTERCEPTOR);
-        // Set the cache location and size (5 MB)
-        okClientBuilder.cache(new Cache(new File(mContext.getCacheDir(),
-                "apiResponses"), 5 * 1024 * 1024));
+//        HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor();
+//        httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
+//        okClientBuilder.addInterceptor(httpLoggingInterceptor);
+//        okClientBuilder.addNetworkInterceptor(REWRITE_RESPONSE_INTERCEPTOR);
+//        // Set the cache location and size (5 MB)
+//        okClientBuilder.cache(new Cache(new File(mContext.getCacheDir(),
+//                "apiResponses"), 5 * 1024 * 1024));
 
         okClientBuilder.connectTimeout(15, TimeUnit.SECONDS);
         okClientBuilder.readTimeout(15, TimeUnit.SECONDS);

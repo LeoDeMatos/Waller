@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.jd-alexander:LikeButton:0.2.3@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/LikeButton-0.2.3.aar/c830f5f72a598b2782f0a9a25fe0a476/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/LikeButton-0.2.3.aar/c830f5f72a598b2782f0a9a25fe0a476/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/37cf4f0f8e6e03c6179fac7e1928167b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/37cf4f0f8e6e03c6179fac7e1928167b/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

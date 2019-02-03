@@ -1,7 +1,7 @@
 package br.com.leonardo.waller.presenter
 
 import android.content.Context
-import br.com.leonardo.waller.model.Photo
+import br.com.leonardo.core.model.Photo
 import br.com.leonardo.waller.model.dataManager.WLRPhotosDataManager
 
 /**

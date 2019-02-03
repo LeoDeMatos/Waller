@@ -5,40 +5,32 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.os.SystemClock
-import android.support.v4.view.ViewPager
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import br.com.leonardo.waller.R
 import br.com.leonardo.waller.util.WLRBroadcastReceiver
-import br.com.leonardo.waller.view.adapter.DefaultViewPagerAdapter
-import br.com.leonardo.waller.view.fragment.BaseFragment
-import br.com.leonardo.waller.view.fragment.FavoritesWallFragment
-import br.com.leonardo.waller.view.fragment.MainWallFragment
-import java.util.*
-
+import java.util.Calendar
 
 class WallActivity : AppCompatActivity() {
 
-    private lateinit var mViewPager: ViewPager
-
+    // MARK: - View Lifecycle
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_wall)
 
-        configureViewPager()
+        //TODO: - Save for multi module navigation
+//        val newIntent = Intent(Intent.ACTION_VIEW).setClassName(
+//            "br.com.leonardo.waller",
+//            UnplashSettings.className)
+//
+//
+//        startActivity(newIntent)
 
         scheduleDailyWallpaperChange()
     }
 
-    //MARK: View configuration
-    private fun configureViewPager() {
-        mViewPager = findViewById(R.id.main_wall_pager)
+    // MARK: - View configuration
 
-        val fragmentList = mutableListOf<BaseFragment>(MainWallFragment(), FavoritesWallFragment())
-        val adapter = DefaultViewPagerAdapter<String>(supportFragmentManager, fragments = fragmentList)
-
-        mViewPager.adapter = adapter
-    }
+    // MARK: - Daily Wallpaper Handlers
 
     private fun scheduleDailyWallpaperChange() {
 

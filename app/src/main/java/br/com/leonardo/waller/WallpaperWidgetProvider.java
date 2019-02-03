@@ -20,7 +20,7 @@ import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.Random;
 
-import br.com.leonardo.waller.model.Photo;
+import br.com.leonardo.core.model.Photo;
 
 /**
  * Created by Leonardo de Matos on 26/04/17.

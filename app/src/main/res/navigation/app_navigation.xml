@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/app_navigation" app:startDestination="@id/mainWallFragment">
+    <fragment android:id="@+id/mainWallFragment" android:name="br.com.leonardo.waller.view.fragment.MainWallFragment"
+              android:label="MainWallFragment"/>
+</navigation>

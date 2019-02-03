@@ -1,217 +1,388 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-52:12
-MERGED from [com.android.support:design:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/a6f752033932a54bf80fc45ae966b5d3/AndroidManifest.xml:17:1-31:12
-MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/LikeButton-0.2.3.aar/c830f5f72a598b2782f0a9a25fe0a476/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:appcompat-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/569c86754d9f467d100b1d36387ada84/AndroidManifest.xml:17:1-31:12
-MERGED from [io.reactivex:rxandroid:1.2.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.1.aar/8bf9c4ea78947b1131142274c315d6f6/AndroidManifest.xml:15:1-21:12
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/63aea7cbbf70c6202f47cb6777dae110/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3a998214ae4583e85a9d379c0b9aec0e/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:palette-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/palette-v7-26.0.1.aar/2719b4dcb4608a61ce7a4cafb2acbfdf/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-dynamic-animation:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.0.1.aar/ffb381c0fe0f0d98e758fac0258f27b5/AndroidManifest.xml:17:1-28:12
-MERGED from [com.github.chrisbanes:PhotoView:2.0.0] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/PhotoView-2.0.0.aar/1a1b24e3a4ce7e375035808611b13b3c/AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.1.aar/21272306e84040fc1884a9e67a7c79d7/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.1.aar/fe8b6cb16407b9b5eadd0a247968159d/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.1.aar/045f8a7612da0ed78257f0900024cc27/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:transition:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/transition-26.0.1.aar/cab89fe148944267db0f6f4dd2178732/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/38ab28ed808cf3fc6c59a652b6ddc361/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.1.aar/a5eae54e33fe6cc38f7133abda2bd870/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.1.aar/f37f291a9b294671b22bee91089c43e7/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/46ddf07cd92f5d60210c029a8119b8a5/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.1.aar/927cdacff7af818137cb200c50b344cc/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/43e3d1bab27a51397ff7f4bf3de791b4/AndroidManifest.xml:17:1-31:12
-INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-56:12
+MERGED from [:core] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.navigation:navigation-ui-ktx:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9d232bbaf20bdd656bf598ca19fa960d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-ui:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5b48e3477dc01e9b5f66a188152449ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/AndroidManifest.xml:17:1-24:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/bd8a3b46626d075ac6f8de33f2c3d1d3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.palette:palette:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5c5038c7748c08b2c1b84dd6df4466be/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/218128b18e430ec95085ecd46d3a6fd1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.chrisbanes:PhotoView:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/412a9a9617aac3576f034fcaa3ed4020/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/589bfe2940483658d9e68891894ea7ce/AndroidManifest.xml:17:1-25:12
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/13e7fea07b5634cf24a3221ea9b7b91c/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.dagger:dagger-android-support:2.21] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3be3a99244731e47bf1adc2c492f26eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-android:2.21] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/af98dd54bbe71e3f1df5570d541c6718/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5314531f8d5a64cb90fc56a98425a7df/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/e00c526128bb7a85f3db1131530b4a4f/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f5e43f47742c06670899ed3b9e3868ca/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/4d1124059cefc2c3346beb6949e242ad/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/37cf4f0f8e6e03c6179fac7e1928167b/AndroidManifest.xml:2:1-14:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/af328031b472c00391fdb52778b8af7c/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a7bc459e45d029dcba5c29f0b07eada9/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/897da1d739eaf8f49b7d01c56a2c445f/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/c9ff923133ce244a7cda9394d7088008/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/AndroidManifest.xml:17:1-22:12
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/0db3df09ef95b91fb33e71ff40cbcf38/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9d82a2b289a0228557b2bc2e6a048465/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/4ed3b4cb2495f95a6d4fac791d0fea55/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/b92cc2c933bd7526d8b929097bd7ba54/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/bd7add70242bd61b51a9b1aaf22be2c0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f51dff9d746e5dc71a5310abaabb4902/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/93bae198711cfc7c1b35562464ded82f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a64ed72bb1320700de3db7617e827a14/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-runtime-ktx:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/086cedda7780e2bfbabc43f3606847d4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3bfe6e4aedd895e3acd8b77a2092116d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/7c524354f5aa7cff15810059cc47f57b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/c0e1e0b5caa85c1d2d6ae8bc5074fd69/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/eb353f0721f9bd66fd0b47e2ef6d990b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/369197816c4d4b51fecc8e3fa281b978/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/89243f26804f63418e42865f5585f321/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/7285f53b46b3b0e85b836891a7d38c94/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/ee293aba3b0db7994dded1f896665097/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a7efff8f98db21ed30c3bf10848f3d93/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/76819558e6edb652250e6570ba01bc94/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/afbe7ba08233d52059780596e9563917/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/355fab27b352458de455561114e97d41/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/6339addf5aa320734d70a17f712a278f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-common:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/0ac63d478f30c53e948f3015b4152426/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/1b4c534bf0d1dc45a509557138f11f96/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3352b799a473e259e44fa957d134effc/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a5894f0c9210a2e1e6769ea25795d57c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/1c3e76d6524d3ff94e750db9bba9fdf8/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/b98d14224e3978a8c365ae3071b46486/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/0cfd2206980b44a86438e1bd3c65d885/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/456856f3447dbedff9a548401612e1f8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9571487e8eb4401dfe43e68ffc74429d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/1b292cfd7e595f9b0e8ab878edbdfdf5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/c06f10ef2c11f4f0a30ec538584b95f8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/2de23439222058ba166d0dd577a72b57/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f6c64a03a7c1716776edb72e740ef9fb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/8963ce2c73b8e46935a744697a3b5fb3/AndroidManifest.xml:17:1-22:12
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5c93e514fd75123da78e463a660c4e74/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/2f37ae09b9de059d732e23ce33e43f87/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/476e7d6c0ab134c8ada724f1d4be52ce/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/8ee3b54ee6748f9365cb9f50aeb00673/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/48f33867c3c1ca46299574ae8557e930/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9efdf41263a2a4e5fd8b3014803de40d/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3a27345b78287e3281d5e7c4f8d0a0e2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/280a51cba2e15fcd55a53bc5c5f04fcf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/2fa606174c3fa0a3acf25e87466b8874/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/ca38ae7e82c63bd8965208e5cf43c3ff/AndroidManifest.xml:17:1-22:12
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/78d5e8e3456369272697c220adaa2e45/AndroidManifest.xml:2:1-13:12
+MERGED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-56:12
 	package
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:3:5-37
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:4:11-43
 		INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-56:12
 		INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
+	xmlns:dist
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:3:11-67
 	android:versionCode
 		INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:1-56:12
 		INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:2:11-69
+dist:module
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:6:5-39
+	dist:instant
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:6:18-37
 uses-permission#android.permission.INTERNET
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:8:5-66
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:9:5-78
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:9:22-76
 uses-permission#android.permission.SET_WALLPAPER
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:7:5-72
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:10:5-71
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:7:22-69
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:10:22-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:8:5-80
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:8:22-77
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:11:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:9:5-81
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:9:22-78
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:12:22-78
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:10:5-68
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:13:5-67
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:10:22-65
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:13:22-65
 application
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:12:5-50:19
-MERGED from [com.android.support:design:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/a6f752033932a54bf80fc45ae966b5d3/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/a6f752033932a54bf80fc45ae966b5d3/AndroidManifest.xml:25:5-29:19
-MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/LikeButton-0.2.3.aar/c830f5f72a598b2782f0a9a25fe0a476/AndroidManifest.xml:11:5-12:19
-MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/LikeButton-0.2.3.aar/c830f5f72a598b2782f0a9a25fe0a476/AndroidManifest.xml:11:5-12:19
-MERGED from [com.android.support:appcompat-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/569c86754d9f467d100b1d36387ada84/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/569c86754d9f467d100b1d36387ada84/AndroidManifest.xml:25:5-29:19
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/63aea7cbbf70c6202f47cb6777dae110/AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/63aea7cbbf70c6202f47cb6777dae110/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3a998214ae4583e85a9d379c0b9aec0e/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3a998214ae4583e85a9d379c0b9aec0e/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:palette-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/palette-v7-26.0.1.aar/2719b4dcb4608a61ce7a4cafb2acbfdf/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:palette-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/palette-v7-26.0.1.aar/2719b4dcb4608a61ce7a4cafb2acbfdf/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-dynamic-animation:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.0.1.aar/ffb381c0fe0f0d98e758fac0258f27b5/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-dynamic-animation:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.0.1.aar/ffb381c0fe0f0d98e758fac0258f27b5/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.1.aar/21272306e84040fc1884a9e67a7c79d7/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.1.aar/21272306e84040fc1884a9e67a7c79d7/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.1.aar/fe8b6cb16407b9b5eadd0a247968159d/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.1.aar/fe8b6cb16407b9b5eadd0a247968159d/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.1.aar/045f8a7612da0ed78257f0900024cc27/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.1.aar/045f8a7612da0ed78257f0900024cc27/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/transition-26.0.1.aar/cab89fe148944267db0f6f4dd2178732/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/transition-26.0.1.aar/cab89fe148944267db0f6f4dd2178732/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/38ab28ed808cf3fc6c59a652b6ddc361/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/38ab28ed808cf3fc6c59a652b6ddc361/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.1.aar/a5eae54e33fe6cc38f7133abda2bd870/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.1.aar/a5eae54e33fe6cc38f7133abda2bd870/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.1.aar/f37f291a9b294671b22bee91089c43e7/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.1.aar/f37f291a9b294671b22bee91089c43e7/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/46ddf07cd92f5d60210c029a8119b8a5/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/46ddf07cd92f5d60210c029a8119b8a5/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.1.aar/927cdacff7af818137cb200c50b344cc/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.1.aar/927cdacff7af818137cb200c50b344cc/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/43e3d1bab27a51397ff7f4bf3de791b4/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/43e3d1bab27a51397ff7f4bf3de791b4/AndroidManifest.xml:25:5-29:19
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:15:5-54:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/bd8a3b46626d075ac6f8de33f2c3d1d3/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/bd8a3b46626d075ac6f8de33f2c3d1d3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/589bfe2940483658d9e68891894ea7ce/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/589bfe2940483658d9e68891894ea7ce/AndroidManifest.xml:22:5-23:19
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/13e7fea07b5634cf24a3221ea9b7b91c/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/13e7fea07b5634cf24a3221ea9b7b91c/AndroidManifest.xml:11:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/4d1124059cefc2c3346beb6949e242ad/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/4d1124059cefc2c3346beb6949e242ad/AndroidManifest.xml:9:5-20
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/37cf4f0f8e6e03c6179fac7e1928167b/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/37cf4f0f8e6e03c6179fac7e1928167b/AndroidManifest.xml:11:5-12:19
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/af328031b472c00391fdb52778b8af7c/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/af328031b472c00391fdb52778b8af7c/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a7bc459e45d029dcba5c29f0b07eada9/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a7bc459e45d029dcba5c29f0b07eada9/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/897da1d739eaf8f49b7d01c56a2c445f/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/897da1d739eaf8f49b7d01c56a2c445f/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/0db3df09ef95b91fb33e71ff40cbcf38/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/0db3df09ef95b91fb33e71ff40cbcf38/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9d82a2b289a0228557b2bc2e6a048465/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9d82a2b289a0228557b2bc2e6a048465/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3352b799a473e259e44fa957d134effc/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3352b799a473e259e44fa957d134effc/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/1c3e76d6524d3ff94e750db9bba9fdf8/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/1c3e76d6524d3ff94e750db9bba9fdf8/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/b98d14224e3978a8c365ae3071b46486/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/b98d14224e3978a8c365ae3071b46486/AndroidManifest.xml:22:5-28:19
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5c93e514fd75123da78e463a660c4e74/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5c93e514fd75123da78e463a660c4e74/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/2f37ae09b9de059d732e23ce33e43f87/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/2f37ae09b9de059d732e23ce33e43f87/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/476e7d6c0ab134c8ada724f1d4be52ce/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/476e7d6c0ab134c8ada724f1d4be52ce/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/8ee3b54ee6748f9365cb9f50aeb00673/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/8ee3b54ee6748f9365cb9f50aeb00673/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/78d5e8e3456369272697c220adaa2e45/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/78d5e8e3456369272697c220adaa2e45/AndroidManifest.xml:11:5-20
+MERGED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:17:5-35:19
+MERGED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:17:5-35:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3352b799a473e259e44fa957d134effc/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:17:9-35
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:20:13-39
 	android:label
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:18:13-45
+	android:debuggable
+		ADDED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:20:9-34
+	android:testOnly
+		ADDED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:25:9-32
 	android:roundIcon
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:16:9-54
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:19:13-58
 	android:icon
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:14:9-43
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:17:13-47
 	android:allowBackup
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:16:13-39
 	android:theme
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:18:9-40
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:22:13-44
+	android:name
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:21:13-32
 activity#br.com.leonardo.waller.view.WallActivity
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:19:9-25:20
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:24:9-30:20
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:19:19-52
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:24:19-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:26:17-68
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:28:17-76
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:28:27-74
 activity#br.com.leonardo.waller.view.DetailActivity
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:27:9-29:47
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:31:9-33:50
 	android:theme
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:29:13-44
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:33:17-48
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:28:13-48
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:32:17-52
 activity#br.com.leonardo.waller.view.ImageViewerActivity
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:31:9-33:56
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:34:9-36:59
 	android:theme
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:33:13-53
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:36:17-57
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:32:13-53
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:35:17-57
 activity#br.com.leonardo.waller.view.UserWallActivity
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:35:9-37:47
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:37:9-39:50
 	android:theme
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:37:13-44
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:39:17-48
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:36:13-50
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:38:17-54
 receiver#br.com.leonardo.waller.WallpaperWidgetProvider
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:39:9-46:20
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:41:9-49:20
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:39:19-58
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:41:19-58
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:40:13-42:29
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:42:13-44:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:41:17-84
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:43:17-83
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:41:25-81
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:43:25-81
 meta-data#android.appwidget.provider
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:43:13-45:55
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:46:13-48:58
 	android:resource
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:45:17-52
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:48:21-56
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:44:17-58
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:47:21-62
 meta-data#preloaded_fonts
-ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:47:9-49:57
+ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:51:9-53:60
 	android:resource
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:49:13-54
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:53:17-58
 	android:name
-		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:48:13-43
+		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml:52:17-47
 uses-sdk
 INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
 INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/a6f752033932a54bf80fc45ae966b5d3/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/a6f752033932a54bf80fc45ae966b5d3/AndroidManifest.xml:21:5-23:62
-MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/LikeButton-0.2.3.aar/c830f5f72a598b2782f0a9a25fe0a476/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/LikeButton-0.2.3.aar/c830f5f72a598b2782f0a9a25fe0a476/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/569c86754d9f467d100b1d36387ada84/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/569c86754d9f467d100b1d36387ada84/AndroidManifest.xml:21:5-23:78
-MERGED from [io.reactivex:rxandroid:1.2.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.1.aar/8bf9c4ea78947b1131142274c315d6f6/AndroidManifest.xml:19:5-43
-MERGED from [io.reactivex:rxandroid:1.2.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.1.aar/8bf9c4ea78947b1131142274c315d6f6/AndroidManifest.xml:19:5-43
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/63aea7cbbf70c6202f47cb6777dae110/AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/63aea7cbbf70c6202f47cb6777dae110/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3a998214ae4583e85a9d379c0b9aec0e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3a998214ae4583e85a9d379c0b9aec0e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:palette-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/palette-v7-26.0.1.aar/2719b4dcb4608a61ce7a4cafb2acbfdf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:palette-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/palette-v7-26.0.1.aar/2719b4dcb4608a61ce7a4cafb2acbfdf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-dynamic-animation:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.0.1.aar/ffb381c0fe0f0d98e758fac0258f27b5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-dynamic-animation:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.0.1.aar/ffb381c0fe0f0d98e758fac0258f27b5/AndroidManifest.xml:20:5-44
-MERGED from [com.github.chrisbanes:PhotoView:2.0.0] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/PhotoView-2.0.0.aar/1a1b24e3a4ce7e375035808611b13b3c/AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.chrisbanes:PhotoView:2.0.0] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/PhotoView-2.0.0.aar/1a1b24e3a4ce7e375035808611b13b3c/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.1.aar/21272306e84040fc1884a9e67a7c79d7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.1.aar/21272306e84040fc1884a9e67a7c79d7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.1.aar/fe8b6cb16407b9b5eadd0a247968159d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.1.aar/fe8b6cb16407b9b5eadd0a247968159d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.1.aar/045f8a7612da0ed78257f0900024cc27/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.1.aar/045f8a7612da0ed78257f0900024cc27/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/transition-26.0.1.aar/cab89fe148944267db0f6f4dd2178732/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/transition-26.0.1.aar/cab89fe148944267db0f6f4dd2178732/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/38ab28ed808cf3fc6c59a652b6ddc361/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/38ab28ed808cf3fc6c59a652b6ddc361/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.1.aar/a5eae54e33fe6cc38f7133abda2bd870/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.1.aar/a5eae54e33fe6cc38f7133abda2bd870/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.1.aar/f37f291a9b294671b22bee91089c43e7/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.1.aar/f37f291a9b294671b22bee91089c43e7/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-media-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/46ddf07cd92f5d60210c029a8119b8a5/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/46ddf07cd92f5d60210c029a8119b8a5/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.1.aar/927cdacff7af818137cb200c50b344cc/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.1.aar/927cdacff7af818137cb200c50b344cc/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/43e3d1bab27a51397ff7f4bf3de791b4/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/43e3d1bab27a51397ff7f4bf3de791b4/AndroidManifest.xml:21:5-23:58
+MERGED from [:core] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:core] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.navigation:navigation-ui-ktx:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9d232bbaf20bdd656bf598ca19fa960d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui-ktx:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9d232bbaf20bdd656bf598ca19fa960d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5b48e3477dc01e9b5f66a188152449ce/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5b48e3477dc01e9b5f66a188152449ce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/bd8a3b46626d075ac6f8de33f2c3d1d3/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/bd8a3b46626d075ac6f8de33f2c3d1d3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.palette:palette:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5c5038c7748c08b2c1b84dd6df4466be/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5c5038c7748c08b2c1b84dd6df4466be/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/218128b18e430ec95085ecd46d3a6fd1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/218128b18e430ec95085ecd46d3a6fd1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.chrisbanes:PhotoView:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/412a9a9617aac3576f034fcaa3ed4020/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.chrisbanes:PhotoView:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/412a9a9617aac3576f034fcaa3ed4020/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/589bfe2940483658d9e68891894ea7ce/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/589bfe2940483658d9e68891894ea7ce/AndroidManifest.xml:20:5-44
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/13e7fea07b5634cf24a3221ea9b7b91c/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/13e7fea07b5634cf24a3221ea9b7b91c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.dagger:dagger-android-support:2.21] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3be3a99244731e47bf1adc2c492f26eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.21] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3be3a99244731e47bf1adc2c492f26eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.21] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/af98dd54bbe71e3f1df5570d541c6718/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.21] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/af98dd54bbe71e3f1df5570d541c6718/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5314531f8d5a64cb90fc56a98425a7df/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5314531f8d5a64cb90fc56a98425a7df/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/e00c526128bb7a85f3db1131530b4a4f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/e00c526128bb7a85f3db1131530b4a4f/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f5e43f47742c06670899ed3b9e3868ca/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f5e43f47742c06670899ed3b9e3868ca/AndroidManifest.xml:18:5-43
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/4d1124059cefc2c3346beb6949e242ad/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/4d1124059cefc2c3346beb6949e242ad/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/37cf4f0f8e6e03c6179fac7e1928167b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/37cf4f0f8e6e03c6179fac7e1928167b/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/af328031b472c00391fdb52778b8af7c/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/af328031b472c00391fdb52778b8af7c/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a7bc459e45d029dcba5c29f0b07eada9/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a7bc459e45d029dcba5c29f0b07eada9/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/897da1d739eaf8f49b7d01c56a2c445f/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/897da1d739eaf8f49b7d01c56a2c445f/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/c9ff923133ce244a7cda9394d7088008/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/c9ff923133ce244a7cda9394d7088008/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/AndroidManifest.xml:20:5-44
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/0db3df09ef95b91fb33e71ff40cbcf38/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/0db3df09ef95b91fb33e71ff40cbcf38/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9d82a2b289a0228557b2bc2e6a048465/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9d82a2b289a0228557b2bc2e6a048465/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/4ed3b4cb2495f95a6d4fac791d0fea55/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/4ed3b4cb2495f95a6d4fac791d0fea55/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/b92cc2c933bd7526d8b929097bd7ba54/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/b92cc2c933bd7526d8b929097bd7ba54/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/bd7add70242bd61b51a9b1aaf22be2c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/bd7add70242bd61b51a9b1aaf22be2c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f51dff9d746e5dc71a5310abaabb4902/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f51dff9d746e5dc71a5310abaabb4902/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/93bae198711cfc7c1b35562464ded82f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/93bae198711cfc7c1b35562464ded82f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a64ed72bb1320700de3db7617e827a14/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a64ed72bb1320700de3db7617e827a14/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime-ktx:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/086cedda7780e2bfbabc43f3606847d4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime-ktx:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/086cedda7780e2bfbabc43f3606847d4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3bfe6e4aedd895e3acd8b77a2092116d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3bfe6e4aedd895e3acd8b77a2092116d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/7c524354f5aa7cff15810059cc47f57b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/7c524354f5aa7cff15810059cc47f57b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/c0e1e0b5caa85c1d2d6ae8bc5074fd69/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/c0e1e0b5caa85c1d2d6ae8bc5074fd69/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/eb353f0721f9bd66fd0b47e2ef6d990b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/eb353f0721f9bd66fd0b47e2ef6d990b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/369197816c4d4b51fecc8e3fa281b978/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/369197816c4d4b51fecc8e3fa281b978/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/89243f26804f63418e42865f5585f321/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/89243f26804f63418e42865f5585f321/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/7285f53b46b3b0e85b836891a7d38c94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/7285f53b46b3b0e85b836891a7d38c94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/ee293aba3b0db7994dded1f896665097/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/ee293aba3b0db7994dded1f896665097/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a7efff8f98db21ed30c3bf10848f3d93/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a7efff8f98db21ed30c3bf10848f3d93/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/76819558e6edb652250e6570ba01bc94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/76819558e6edb652250e6570ba01bc94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/afbe7ba08233d52059780596e9563917/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/afbe7ba08233d52059780596e9563917/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/355fab27b352458de455561114e97d41/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/355fab27b352458de455561114e97d41/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/6339addf5aa320734d70a17f712a278f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/6339addf5aa320734d70a17f712a278f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/0ac63d478f30c53e948f3015b4152426/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0-alpha09] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/0ac63d478f30c53e948f3015b4152426/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/1b4c534bf0d1dc45a509557138f11f96/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/1b4c534bf0d1dc45a509557138f11f96/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3352b799a473e259e44fa957d134effc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3352b799a473e259e44fa957d134effc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a5894f0c9210a2e1e6769ea25795d57c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/a5894f0c9210a2e1e6769ea25795d57c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/1c3e76d6524d3ff94e750db9bba9fdf8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/1c3e76d6524d3ff94e750db9bba9fdf8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/b98d14224e3978a8c365ae3071b46486/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/b98d14224e3978a8c365ae3071b46486/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/0cfd2206980b44a86438e1bd3c65d885/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/0cfd2206980b44a86438e1bd3c65d885/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/456856f3447dbedff9a548401612e1f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/456856f3447dbedff9a548401612e1f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9571487e8eb4401dfe43e68ffc74429d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9571487e8eb4401dfe43e68ffc74429d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/1b292cfd7e595f9b0e8ab878edbdfdf5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/1b292cfd7e595f9b0e8ab878edbdfdf5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/c06f10ef2c11f4f0a30ec538584b95f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/c06f10ef2c11f4f0a30ec538584b95f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/2de23439222058ba166d0dd577a72b57/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/2de23439222058ba166d0dd577a72b57/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f6c64a03a7c1716776edb72e740ef9fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f6c64a03a7c1716776edb72e740ef9fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/8963ce2c73b8e46935a744697a3b5fb3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/8963ce2c73b8e46935a744697a3b5fb3/AndroidManifest.xml:20:5-44
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5c93e514fd75123da78e463a660c4e74/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/5c93e514fd75123da78e463a660c4e74/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/2f37ae09b9de059d732e23ce33e43f87/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/2f37ae09b9de059d732e23ce33e43f87/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/476e7d6c0ab134c8ada724f1d4be52ce/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/476e7d6c0ab134c8ada724f1d4be52ce/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/8ee3b54ee6748f9365cb9f50aeb00673/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/8ee3b54ee6748f9365cb9f50aeb00673/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/48f33867c3c1ca46299574ae8557e930/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/48f33867c3c1ca46299574ae8557e930/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9efdf41263a2a4e5fd8b3014803de40d/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/9efdf41263a2a4e5fd8b3014803de40d/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3a27345b78287e3281d5e7c4f8d0a0e2/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/3a27345b78287e3281d5e7c4f8d0a0e2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/280a51cba2e15fcd55a53bc5c5f04fcf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/280a51cba2e15fcd55a53bc5c5f04fcf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/2fa606174c3fa0a3acf25e87466b8874/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/2fa606174c3fa0a3acf25e87466b8874/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/ca38ae7e82c63bd8965208e5cf43c3ff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/ca38ae7e82c63bd8965208e5cf43c3ff/AndroidManifest.xml:20:5-44
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/78d5e8e3456369272697c220adaa2e45/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/78d5e8e3456369272697c220adaa2e45/AndroidManifest.xml:7:5-9:41
+MERGED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:9:5-47
+MERGED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:9:5-47
 INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
 INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/a6f752033932a54bf80fc45ae966b5d3/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
 		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
@@ -219,36 +390,29 @@ INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/mai
 	android:minSdkVersion
 		INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
 		ADDED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
+		MERGED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/a6f752033932a54bf80fc45ae966b5d3/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/569c86754d9f467d100b1d36387ada84/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/569c86754d9f467d100b1d36387ada84/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:palette-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/palette-v7-26.0.1.aar/2719b4dcb4608a61ce7a4cafb2acbfdf/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:palette-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/palette-v7-26.0.1.aar/2719b4dcb4608a61ce7a4cafb2acbfdf/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-dynamic-animation:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.0.1.aar/ffb381c0fe0f0d98e758fac0258f27b5/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-dynamic-animation:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.0.1.aar/ffb381c0fe0f0d98e758fac0258f27b5/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.1.aar/21272306e84040fc1884a9e67a7c79d7/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.1.aar/21272306e84040fc1884a9e67a7c79d7/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.1.aar/fe8b6cb16407b9b5eadd0a247968159d/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.1.aar/fe8b6cb16407b9b5eadd0a247968159d/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.1.aar/045f8a7612da0ed78257f0900024cc27/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.1.aar/045f8a7612da0ed78257f0900024cc27/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/transition-26.0.1.aar/cab89fe148944267db0f6f4dd2178732/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/transition-26.0.1.aar/cab89fe148944267db0f6f4dd2178732/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/38ab28ed808cf3fc6c59a652b6ddc361/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/38ab28ed808cf3fc6c59a652b6ddc361/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.1.aar/a5eae54e33fe6cc38f7133abda2bd870/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.1.aar/a5eae54e33fe6cc38f7133abda2bd870/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.1.aar/f37f291a9b294671b22bee91089c43e7/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.1.aar/f37f291a9b294671b22bee91089c43e7/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/46ddf07cd92f5d60210c029a8119b8a5/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/46ddf07cd92f5d60210c029a8119b8a5/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.1.aar/927cdacff7af818137cb200c50b344cc/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.1.aar/927cdacff7af818137cb200c50b344cc/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/43e3d1bab27a51397ff7f4bf3de791b4/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/43e3d1bab27a51397ff7f4bf3de791b4/AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:design:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/a6f752033932a54bf80fc45ae966b5d3/AndroidManifest.xml:28:13-35
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/b98d14224e3978a8c365ae3071b46486/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/b98d14224e3978a8c365ae3071b46486/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/b98d14224e3978a8c365ae3071b46486/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/b98d14224e3978a8c365ae3071b46486/AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from [com.android.support:design:26.0.1] /Users/Leonardo/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/a6f752033932a54bf80fc45ae966b5d3/AndroidManifest.xml:27:13-51
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/Leonardo/.gradle/caches/transforms-2/files-2.1/b98d14224e3978a8c365ae3071b46486/AndroidManifest.xml:24:13-79
+activity#br.com.leonardo.unplash.UnplashSettingsActivity
+ADDED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:27:9-34:20
+	android:splitName
+		ADDED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:29:13-40
+	android:theme
+		ADDED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:30:13-44
+	android:name
+		ADDED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:28:13-75
+intent-filter#action:name:android.intent.action.VIEW
+ADDED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:31:13-33:29
+action#android.intent.action.VIEW
+ADDED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from [:unplash] /Users/Leonardo/Documents/AndroidStudioProjects/Waller/unplash/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/AndroidManifest.xml:32:25-66

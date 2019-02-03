@@ -1,13 +1,12 @@
 package br.com.leonardo.waller.view.adapter
 
-import android.support.v4.content.ContextCompat
-import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
+import androidx.recyclerview.widget.RecyclerView
+import br.com.leonardo.core.model.Photo
 import br.com.leonardo.waller.R
-import br.com.leonardo.waller.model.Photo
-import br.com.leonardo.waller.presenter.WallPresenter
 import br.com.leonardo.waller.view.adapter.viewHolder.WallViewHolder
 
 /**
@@ -16,8 +15,6 @@ import br.com.leonardo.waller.view.adapter.viewHolder.WallViewHolder
 
 class UserWallAdapter(private val mPhotos: MutableList<Photo>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     private val PHOTO = 1
-
-    var mWallListener: WallPresenter.WallListener? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return WallViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.row_item, parent, false))
@@ -28,12 +25,11 @@ class UserWallAdapter(private val mPhotos: MutableList<Photo>) : RecyclerView.Ad
             val baseWallModel = mPhotos[position]
             if(holder is WallViewHolder) {
                 holder.bindUnplashPhoto(baseWallModel)
-                holder.mWallListener = mWallListener
             }
             paintBackground(position, holder.itemView.findViewById(R.id.image))
 
             if (itemCount >= 40 && position >= itemCount - 10) {
-                mWallListener?.loadNextPage()
+//                mMainWallListener?.loadNextPage()
             }
         }
     }
@@ -44,7 +40,7 @@ class UserWallAdapter(private val mPhotos: MutableList<Photo>) : RecyclerView.Ad
     }
 
     private fun paintBackground(position: Int, view: View) {
-        view.setBackgroundColor(ContextCompat.getColor(view.context, if (position % 5 == 0) R.color.black else R.color.blackish))
+        view.setBackgroundColor(ContextCompat.getColor(view.context, if (position % 5 == 0) R.color.white else R.color.whiteish))
     }
 
     fun addNewPage(photos: List<Photo>) {

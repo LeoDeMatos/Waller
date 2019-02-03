@@ -2,7 +2,7 @@ package br.com.leonardo.waller.model.dataManager
 
 import android.content.Context
 import br.com.leonardo.waller.Preferences
-import br.com.leonardo.waller.model.Photo
+import br.com.leonardo.core.model.Photo
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
@@ -13,7 +13,7 @@ import com.google.gson.reflect.TypeToken
  */
 class WLRPhotosDataManager{
 
-    fun fetchFavorites(context: Context): MutableList<Photo>{
+    fun fetchFavorites(context: Context?): MutableList<Photo>{
         val rawJsonData = Preferences.getSharedPreference(context,Preferences.FAVORITES_BUCKET)
 
         val listType = object : TypeToken<MutableList<Photo>>() {

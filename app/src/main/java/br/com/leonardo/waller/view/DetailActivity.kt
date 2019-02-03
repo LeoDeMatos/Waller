@@ -12,7 +12,7 @@ import android.graphics.Color
 import android.net.ConnectivityManager
 import android.os.Bundle
 import android.os.Handler
-import android.support.design.widget.BottomSheetBehavior
+import com.google.android.material.bottomsheet.BottomSheetBehavior
 import android.transition.TransitionManager
 import android.util.TypedValue
 import android.view.View
@@ -22,7 +22,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import br.com.leonardo.waller.ImageDownloadTask
 import br.com.leonardo.waller.R
-import br.com.leonardo.waller.model.Photo
+import br.com.leonardo.core.model.Photo
 import br.com.leonardo.waller.presenter.WLRWallDetailPresenter
 import br.com.leonardo.waller.util.ColorUtil
 import com.bumptech.glide.Glide
