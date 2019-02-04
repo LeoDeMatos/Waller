@@ -9,6 +9,7 @@ import java.lang.System;
 public final class FavoritesWallFragment extends br.com.leonardo.waller.view.fragment.BaseFragment implements br.com.leonardo.waller.presenter.view.WLRFavoritesView {
     private androidx.recyclerview.widget.RecyclerView mList;
     private final kotlin.Lazy presenter$delegate = null;
+    private java.util.HashMap _$_findViewCache;
     
     @java.lang.Override()
     public void configureViewModel() {

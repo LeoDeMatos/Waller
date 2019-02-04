@@ -13,6 +13,7 @@ public final class UserWallActivity extends androidx.appcompat.app.AppCompatActi
     @org.jetbrains.annotations.NotNull()
     private static final java.lang.String USER_EXTRA = "USER_EXTRA";
     public static final br.com.leonardo.waller.view.UserWallActivity.Companion Companion = null;
+    private java.util.HashMap _$_findViewCache;
     
     private final br.com.leonardo.core.model.User getMUser() {
         return null;

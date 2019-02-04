@@ -21,11 +21,11 @@ class ImageViewerActivity : AppCompatActivity() {
         intent.extras.getString(IMAGE_URL)?.let {
             val photo = Gson().fromJson(it, Photo::class.java)
             val imageView = findViewById<ImageView>(R.id.image_view)
-            Glide.with(this)
-                    .load(photo.urls.regular)
-                    .asBitmap()
-                    .diskCacheStrategy(DiskCacheStrategy.ALL)
-                    .into(imageView)
+//            Glide.with(this)
+//                    .load(photo.urls.regular)
+//                    .asBitmap()
+//                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+//                    .into(imageView)
 
             findViewById<View>(R.id.close_button).setOnClickListener {
                 onBackPressed()

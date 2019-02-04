@@ -1,5 +1,7 @@
 package br.com.leonardo.core.model;
 
+import android.net.Uri;
+
 /**
  * Created by Leonardo de Matos on 24/04/17.
  */
@@ -10,4 +12,5 @@ public class URLS{
     public String full;
     public String small;
     public String large;
+    public Uri parsedResource;
 }

@@ -72,6 +72,10 @@
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/res/animator-v21/design_appbar_state_list_animator.xml"
     },
     {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/menu_side_navigation_items.xml.flat",
+        "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/res/menu/side_navigation_items.xml"
+    },
+    {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
@@ -354,6 +358,10 @@
     {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable_design_snackbar_background.xml.flat",
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable_shape_edit_text_background.xml.flat",
+        "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/res/drawable/shape_edit_text_background.xml"
     },
     {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -736,6 +744,10 @@
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/res/layout/abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_hamb_menu.png.flat",
+        "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/generated/res/pngs/debug/drawable-hdpi/ic_hamb_menu.png"
+    },
+    {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
@@ -868,6 +880,10 @@
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/res/layout/select_dialog_item_material.xml"
     },
     {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_hamb_menu.png.flat",
+        "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/generated/res/pngs/debug/drawable-ldpi/ic_hamb_menu.png"
+    },
+    {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/animator_mtrl_chip_state_list_anim.xml.flat",
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/res/animator/mtrl_chip_state_list_anim.xml"
     },
@@ -942,6 +958,10 @@
     {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/1b4c534bf0d1dc45a509557138f11f96/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_hamb_menu.xml.flat",
+        "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_hamb_menu.xml"
     },
     {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/layout-v26_abc_screen_toolbar.xml.flat",
@@ -1096,6 +1116,10 @@
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_hamb_menu.png.flat",
+        "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_hamb_menu.png"
+    },
+    {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat",
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/res/layout/abc_popup_menu_item_layout.xml"
     },
@@ -1216,12 +1240,12 @@
         "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/res/layout/activity_image_view.xml"
     },
     {
-        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
-        "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/res/anim-v21/design_bottom_sheet_slide_in.xml"
-    },
-    {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/layout_design_navigation_menu.xml.flat",
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
+        "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat",
@@ -1346,6 +1370,10 @@
     {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_material.xml.flat",
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/layout_row_no_content.xml.flat",
+        "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/core/build/intermediates/packaged_res/debug/layout/row_no_content.xml"
     },
     {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_dark.xml.flat",
@@ -1476,6 +1504,10 @@
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/res/drawable-mdpi-v4/design_ic_visibility.png"
     },
     {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_hamb_menu.png.flat",
+        "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_hamb_menu.png"
+    },
+    {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable_ic_mtrl_chip_close_circle.xml.flat",
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/res/drawable/ic_mtrl_chip_close_circle.xml"
     },
@@ -1502,6 +1534,10 @@
     {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/layout_design_navigation_item_subheader.xml.flat",
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_leo.jpg.flat",
+        "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/res/drawable-xxxhdpi/ic_leo.jpg"
     },
     {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -1538,6 +1574,10 @@
     {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_hamb_menu.png.flat",
+        "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_hamb_menu.png"
     },
     {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/layout_design_bottom_navigation_item.xml.flat",
@@ -1804,6 +1844,10 @@
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/layout_row_wall_header.xml.flat",
+        "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/res/layout/row_wall_header.xml"
+    },
+    {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat",
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/res/drawable-v21/abc_btn_colored_material.xml"
     },
@@ -1976,6 +2020,10 @@
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_hamb_menu.png.flat",
+        "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/generated/res/pngs/debug/drawable-mdpi/ic_hamb_menu.png"
+    },
+    {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable_color_background.xml.flat",
         "source": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/src/main/res/drawable/color_background.xml"
     },
@@ -1992,12 +2040,12 @@
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_design_ic_visibility.png.flat",
-        "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/res/drawable-xhdpi-v4/design_ic_visibility.png"
-    },
-    {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/f8dea8bd91209686ebf5dd05ecb039b2/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_design_ic_visibility.png.flat",
+        "source": "/Users/Leonardo/.gradle/caches/transforms-2/files-2.1/d03d8d55b4b05ed30d8e1c44b025b0bb/res/drawable-xhdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/Users/Leonardo/Documents/AndroidStudioProjects/Waller/app/build/intermediates/res/merged/debug/animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",

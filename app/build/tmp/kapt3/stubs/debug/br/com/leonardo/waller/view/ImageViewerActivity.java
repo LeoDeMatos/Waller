@@ -10,6 +10,7 @@ public final class ImageViewerActivity extends androidx.appcompat.app.AppCompatA
     @org.jetbrains.annotations.NotNull()
     private static final java.lang.String IMAGE_URL = "IMAGE_URL";
     public static final br.com.leonardo.waller.view.ImageViewerActivity.Companion Companion = null;
+    private java.util.HashMap _$_findViewCache;
     
     @java.lang.Override()
     protected void onCreate(@org.jetbrains.annotations.Nullable()

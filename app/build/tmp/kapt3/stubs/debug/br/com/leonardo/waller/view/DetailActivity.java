@@ -15,6 +15,7 @@ public final class DetailActivity extends android.app.Activity {
     private com.like.LikeButton mFavoriteButton;
     private android.widget.FrameLayout mDownloadContainer;
     private final br.com.leonardo.waller.presenter.WLRWallDetailPresenter presenter = null;
+    private java.util.HashMap _$_findViewCache;
     
     private final com.github.chrisbanes.photoview.PhotoView getMMainImageView() {
         return null;

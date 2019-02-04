@@ -9,6 +9,7 @@ import java.lang.System;
 public abstract class BaseFragment extends androidx.fragment.app.Fragment {
     @org.jetbrains.annotations.NotNull()
     public android.view.ViewGroup mRootView;
+    private java.util.HashMap _$_findViewCache;
     
     @org.jetbrains.annotations.NotNull()
     public final android.view.ViewGroup getMRootView() {

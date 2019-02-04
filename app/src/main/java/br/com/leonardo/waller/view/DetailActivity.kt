@@ -12,24 +12,18 @@ import android.graphics.Color
 import android.net.ConnectivityManager
 import android.os.Bundle
 import android.os.Handler
-import com.google.android.material.bottomsheet.BottomSheetBehavior
 import android.transition.TransitionManager
 import android.util.TypedValue
 import android.view.View
-import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
-import br.com.leonardo.waller.ImageDownloadTask
-import br.com.leonardo.waller.R
 import br.com.leonardo.core.model.Photo
+import br.com.leonardo.waller.R
 import br.com.leonardo.waller.presenter.WLRWallDetailPresenter
-import br.com.leonardo.waller.util.ColorUtil
 import com.bumptech.glide.Glide
-import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.bumptech.glide.request.animation.GlideAnimation
-import com.bumptech.glide.request.target.SimpleTarget
 import com.github.chrisbanes.photoview.PhotoView
+import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.gson.Gson
 import com.like.LikeButton
 import com.like.OnLikeListener
@@ -138,21 +132,21 @@ class DetailActivity : Activity() {
 
         bindUser()
 
-        Glide.with(this)
-                .load(mPhoto!!.urls.regular)
-                .asBitmap()
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .into(object : SimpleTarget<Bitmap>() {
-                    override fun onResourceReady(resource: Bitmap, glideAnimation: GlideAnimation<in Bitmap>) {
-                        mMainImageView.setImageBitmap(resource)
-                        applyImageZoom()
-                        mLoadedBitmap = resource
-                        ColorUtil.extractColor(mLoadedBitmap, { palette ->
-                            val colorContainer = findViewById<ViewGroup>(R.id.color_container)
-                            ColorUtil.presentColors(this@DetailActivity, colorContainer = colorContainer, palette = palette)
-                        })
-                    }
-                })
+//        Glide.with(this)
+//                .load(mPhoto!!.urls.regular)
+//                .asBitmap()
+//                .diskCacheStrategy(DiskCacheStrategy.ALL)
+//                .into(object : SimpleTarget<Bitmap>() {
+//                    override fun onResourceReady(resource: Bitmap, glideAnimation: GlideAnimation<in Bitmap>) {
+//                        mMainImageView.setImageBitmap(resource)
+//                        applyImageZoom()
+//                        mLoadedBitmap = resource
+//                        ColorUtil.extractColor(mLoadedBitmap, { palette ->
+//                            val colorContainer = findViewById<ViewGroup>(R.id.color_container)
+//                            ColorUtil.presentColors(this@DetailActivity, colorContainer = colorContainer, palette = palette)
+//                        })
+//                    }
+//                })
 
     }
 
@@ -168,7 +162,7 @@ class DetailActivity : Activity() {
     private fun bindUser() {
         Glide.with(this)
                 .load(mPhoto!!.user.profile_image.large)
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
+//                .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(mUserImageView)
 
         mUserImageView.setOnClickListener {
@@ -220,20 +214,20 @@ class DetailActivity : Activity() {
 
     private fun download(isSave: Boolean) {
         handleLoading(true)
-        Glide.with(this@DetailActivity)
-                .load(mPhoto!!.urls.raw)
-                .asBitmap()
-                .into(object : SimpleTarget<Bitmap>() {
-                    override fun onResourceReady(resource: Bitmap, glideAnimation: GlideAnimation<in Bitmap>) {
-
-                        val downloadTask = ImageDownloadTask(this@DetailActivity, resource, isSave, object : ImageDownloadCallback {
-                            override fun onFinish() {
-                                handleLoading(false)
-                            }
-                        })
-                        downloadTask.execute()
-                    }
-                })
+//        Glide.with(this@DetailActivity)
+//                .load(mPhoto!!.urls.raw)
+////                .asBitmap()
+//                .into(object : SimpleTarget<Bitmap>() {
+//                    override fun onResourceReady(resource: Bitmap, glideAnimation: GlideAnimation<in Bitmap>) {
+//
+//                        val downloadTask = ImageDownloadTask(this@DetailActivity, resource, isSave, object : ImageDownloadCallback {
+//                            override fun onFinish() {
+//                                handleLoading(false)
+//                            }
+//                        })
+//                        downloadTask.execute()
+//                    }
+//                })
     }
 
 

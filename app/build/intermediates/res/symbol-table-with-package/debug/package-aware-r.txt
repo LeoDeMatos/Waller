@@ -68,6 +68,9 @@ attr actionOverflowMenuStyle
 attr actionProviderClass
 attr actionViewClass
 attr activityChooserViewStyle
+attr actualImageResource
+attr actualImageScaleType
+attr actualImageUri
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
@@ -86,6 +89,7 @@ attr autoSizePresetSizes
 attr autoSizeStepGranularity
 attr autoSizeTextType
 attr background
+attr backgroundImage
 attr backgroundSplit
 attr backgroundStacked
 attr backgroundTint
@@ -258,6 +262,9 @@ attr fabCradleRoundedCornerRadius
 attr fabCradleVerticalOffset
 attr fabCustomSize
 attr fabSize
+attr fadeDuration
+attr failureImage
+attr failureImageScaleType
 attr fastScrollEnabled
 attr fastScrollHorizontalThumbDrawable
 attr fastScrollHorizontalTrackDrawable
@@ -423,6 +430,7 @@ attr navigationViewStyle
 attr nullable
 attr numericModifiers
 attr overlapAnchor
+attr overlayImage
 attr paddingBottomNoButtons
 attr paddingEnd
 attr paddingStart
@@ -435,6 +443,8 @@ attr passwordToggleDrawable
 attr passwordToggleEnabled
 attr passwordToggleTint
 attr passwordToggleTintMode
+attr placeholderImage
+attr placeholderImageScaleType
 attr popEnterAnim
 attr popExitAnim
 attr popUpTo
@@ -443,7 +453,11 @@ attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
 attr preserveIconSpacing
+attr pressedStateOverlayImage
 attr pressedTranslationZ
+attr progressBarAutoRotateInterval
+attr progressBarImage
+attr progressBarImageScaleType
 attr progressBarPadding
 attr progressBarStyle
 attr queryBackground
@@ -452,8 +466,24 @@ attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
+attr retryImage
+attr retryImageScaleType
 attr reverseLayout
 attr rippleColor
+attr roundAsCircle
+attr roundBottomEnd
+attr roundBottomLeft
+attr roundBottomRight
+attr roundBottomStart
+attr roundTopEnd
+attr roundTopLeft
+attr roundTopRight
+attr roundTopStart
+attr roundWithOverlayColor
+attr roundedCornerRadius
+attr roundingBorderColor
+attr roundingBorderPadding
+attr roundingBorderWidth
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -588,6 +618,7 @@ attr ttcIndex
 attr unlike_drawable
 attr uri
 attr useCompatPadding
+attr viewAspectRatio
 attr viewInflaterClass
 attr voiceIcon
 attr windowActionBar
@@ -890,6 +921,7 @@ dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
 dimen margin_10dp
+dimen margin_30dp
 dimen margin_40dp
 dimen mtrl_bottomappbar_fabOffsetEndMode
 dimen mtrl_bottomappbar_fab_cradle_margin
@@ -955,11 +987,13 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen padding_20dp
+dimen profile_corner_radius
 dimen search_edit_text_height
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
+dimen toolbar_profile_image_size
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1065,9 +1099,11 @@ drawable design_snackbar_background
 drawable heart_off
 drawable heart_on
 drawable ic_cloud_download
+drawable ic_hamb_menu
 drawable ic_heart
 drawable ic_heart_outline
 drawable ic_launcher_background
+drawable ic_leo
 drawable ic_logo
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1093,6 +1129,7 @@ drawable notify_panel_notification_icon_bg
 drawable selector_like
 drawable selector_white_ripple
 drawable shape_circle
+drawable shape_edit_text_background
 drawable shape_tag
 drawable star_off
 drawable star_on
@@ -1148,6 +1185,8 @@ id buttonPanel
 id button_container
 id cancel_action
 id center
+id centerCrop
+id centerInside
 id center_horizontal
 id center_vertical
 id chains
@@ -1177,6 +1216,8 @@ id direct
 id disableHome
 id dots
 id download_container
+id drawerButton
+id drawerLayout
 id edit_query
 id end
 id end_padder
@@ -1190,9 +1231,16 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id fitBottomStart
+id fitCenter
+id fitEnd
+id fitStart
+id fitXY
 id fixed
+id focusCrop
 id forever
 id ghost_view
+id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
@@ -1214,8 +1262,10 @@ id line1
 id line3
 id listMode
 id list_item
+id mainPhotoContainer
 id mainTitle
 id mainWallFragment
+id mainWallRecyclerView
 id masked
 id media_actions
 id message
@@ -1226,6 +1276,7 @@ id mtrl_internal_children_alpha_tag
 id multiply
 id nav_controller_view_tag
 id navigationHost
+id navigationView
 id navigation_header_container
 id never
 id none
@@ -1246,6 +1297,7 @@ id profile_image
 id progress_circular
 id progress_horizontal
 id radio
+id refresh
 id right
 id right_icon
 id right_side
@@ -1290,6 +1342,7 @@ id src_over
 id standard
 id start
 id status_bar_latest_event_content
+id stop
 id stretch
 id subTitle
 id submenuarrow
@@ -1311,6 +1364,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbarProfileImageView
 id top
 id topPanel
 id touch_outside
@@ -1423,13 +1477,16 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout row_item
+layout row_no_content
 layout row_tag
 layout row_user_main_info
+layout row_wall_header
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout widget_wallpaper
+menu side_navigation_items
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
@@ -2043,6 +2100,7 @@ styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchSt
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable FragmentNavigator android_name
+styleable GenericDraweeHierarchy actualImageScaleType backgroundImage fadeDuration failureImage failureImageScaleType overlayImage placeholderImage placeholderImageScaleType pressedStateOverlayImage progressBarAutoRotateInterval progressBarImage progressBarImageScaleType retryImage retryImageScaleType roundAsCircle roundBottomEnd roundBottomLeft roundBottomRight roundBottomStart roundTopEnd roundTopLeft roundTopRight roundTopStart roundWithOverlayColor roundedCornerRadius roundingBorderColor roundingBorderPadding roundingBorderWidth viewAspectRatio
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable LikeButton anim_scale_factor circle_end_color circle_start_color dots_primary_color dots_secondary_color icon_size icon_type is_enabled like_drawable liked unlike_drawable
@@ -2071,6 +2129,7 @@ styleable RecyclerView android_orientation android_descendantFocusability fastSc
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
+styleable SimpleDraweeView actualImageResource actualImageScaleType actualImageUri backgroundImage fadeDuration failureImage failureImageScaleType overlayImage placeholderImage placeholderImageScaleType pressedStateOverlayImage progressBarAutoRotateInterval progressBarImage progressBarImageScaleType retryImage retryImageScaleType roundAsCircle roundBottomEnd roundBottomLeft roundBottomRight roundBottomStart roundTopEnd roundTopLeft roundTopRight roundTopStart roundWithOverlayColor roundedCornerRadius roundingBorderColor roundingBorderPadding roundingBorderWidth viewAspectRatio
 styleable Snackbar snackbarButtonStyle snackbarStyle
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme

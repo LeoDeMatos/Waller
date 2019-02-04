@@ -6,17 +6,12 @@ import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.widget.RemoteViews;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.animation.GlideAnimation;
-import com.bumptech.glide.request.target.SimpleTarget;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.Random;
 
@@ -58,21 +53,21 @@ public class WallpaperWidgetProvider extends AppWidgetProvider {
             Random r = new Random();
             int i1 = r.nextInt(10 - 1) + 1;
             Toast.makeText(context, "Carregando...", Toast.LENGTH_LONG).show();
-            Glide.with(context)
-                    .load(photo[i1].urls.regular)
-                    .asBitmap()
-                    .into(new SimpleTarget<Bitmap>() {
-                        @Override
-                        public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
-
-                            Toast.makeText(context, "Pronto!", Toast.LENGTH_LONG).show();
-                            try {
-                                myWallpaperManager.setBitmap(resource);
-                            } catch (IOException e) {
-                                e.printStackTrace();
-                            }
-                        }
-                    });
+//            Glide.with(context)
+//                    .load(photo[i1].urls.regular)
+//                    .asBitmap()
+//                    .into(new SimpleTarget<Bitmap>() {
+//                        @Override
+//                        public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
+//
+//                            Toast.makeText(context, "Pronto!", Toast.LENGTH_LONG).show();
+//                            try {
+//                                myWallpaperManager.setBitmap(resource);
+//                            } catch (IOException e) {
+//                                e.printStackTrace();
+//                            }
+//                        }
+//                    });
 
         }
     }

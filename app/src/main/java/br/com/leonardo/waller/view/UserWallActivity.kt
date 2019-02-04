@@ -80,7 +80,7 @@ class UserWallActivity : AppCompatActivity(), WallView {
 
         Glide.with(this@UserWallActivity)
                 .load(mUser.profile_image.large)
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
+//                .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(userImageView)
 
     }

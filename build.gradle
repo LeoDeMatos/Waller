@@ -18,7 +18,8 @@ buildscript {
             'retrofit'              : '2.4.0',
             'retrofitRxJavaAdapter' : '2.3.0',
             'architectureComponents': '2.0.0-beta01',
-            'navigation'            : '1.0.0-alpha09'
+            'navigation'            : '1.0.0-alpha09',
+            'fresco'                : '1.11.0'
     ]
 
     ext.buildConfig = [

@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import br.com.leonardo.waller.WallAdapter
 import br.com.leonardo.waller.presenter.WLRFavoritesPresenter
 import br.com.leonardo.waller.presenter.view.WLRFavoritesView
 
@@ -56,8 +55,8 @@ class FavoritesWallFragment : BaseFragment(), WLRFavoritesView{
     override fun onFavoritesReceived() {
         if(mList.adapter == null){
             presenter.favorites?.let {
-                val adapter = WallAdapter(it)
-                mList.adapter = adapter
+//                val adapter = WallAdapter(it)
+//                mList.adapter = adapter
             }
         }else {
             mList.adapter?.notifyDataSetChanged()

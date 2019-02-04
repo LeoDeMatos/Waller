@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainPhotoContainer"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/white_dark"
+    android:layout_margin="6dp"
     android:orientation="vertical">
 
-    <ImageView
+    <com.facebook.drawee.view.SimpleDraweeView
         android:id="@+id/image"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_margin="0.25dp"
-        android:transitionName="source" />
+        android:scaleType="centerCrop"
+        android:transitionName="source"
+        app:fadeDuration="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:roundedCornerRadius="15dp" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

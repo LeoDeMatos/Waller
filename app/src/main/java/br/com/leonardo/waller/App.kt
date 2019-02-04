@@ -6,6 +6,7 @@ import br.com.leonardo.core.di.network.NetworkModule
 import br.com.leonardo.waller.di.AppComponent
 import br.com.leonardo.waller.di.AppModule
 import br.com.leonardo.waller.di.DaggerAppComponent
+import com.facebook.drawee.backends.pipeline.Fresco
 
 //
 //  App
@@ -24,6 +25,9 @@ class App : Application() {
 
     override fun onCreate() {
         super.onCreate()
+
+        // Init
+        Fresco.initialize(this)
         appContext = this
         appComponent = DaggerAppComponent
             .builder()

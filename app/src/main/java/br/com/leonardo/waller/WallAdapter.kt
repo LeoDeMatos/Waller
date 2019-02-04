@@ -1,41 +1,57 @@
 package br.com.leonardo.waller
 
-import android.view.LayoutInflater
-import android.view.View
+import android.util.Log
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import br.com.leonardo.core.model.Photo
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import br.com.leonardo.core.base.BaseAdapter
+import br.com.leonardo.core.util.DensityConverter
+import br.com.leonardo.waller.presenter.MainWallViewModel
+import br.com.leonardo.waller.view.adapter.viewHolder.WallHeaderViewHolder
 import br.com.leonardo.waller.view.adapter.viewHolder.WallViewHolder
 
 /**
  * Created by Leonardo de Matos on 09/04/17.
  */
 
-class WallAdapter(private val mPhotos: MutableList<Photo>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class WallAdapter : BaseAdapter<MainWallViewModel.WallListItem>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
-        return WallViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.row_item, parent, false))
+        initInflater(parent.context)
+
+        return when (viewType) {
+            MainWallViewModel.ViewType.Header.rawViewType -> {
+                return WallHeaderViewHolder(inflater.inflate(R.layout.row_wall_header, parent, false))
+            }
+            else -> {
+                WallViewHolder(inflater.inflate(R.layout.row_item, parent, false))
+            }
+        }
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-        val baseWallModel = mPhotos[position]
-        (holder as WallViewHolder).bindUnplashPhoto(baseWallModel)
+        val item = dataSource.getItemFor(position)
+        when (item.viewType) {
+            MainWallViewModel.ViewType.Header -> {
+                val params = holder.itemView.layoutParams as StaggeredGridLayoutManager.LayoutParams
+                params.isFullSpan = true
+                holder.itemView.layoutParams = params
 
-        paintBackground(position, holder.itemView.findViewById(R.id.image))
-    }
+            }
+            else -> {
+                val photo = item.photo
 
-    override fun getItemCount(): Int {
-        return mPhotos.size
-    }
+                val height = photo?.height ?: 0L
+                val workingHeight = height * 0.30f
+                val workingDpHeight = DensityConverter.toDp(holder.itemView.context, workingHeight)
 
-    private fun paintBackground(position: Int, view: View) {
-        view.setBackgroundColor(ContextCompat.getColor(view.context, if (position % 5 == 0) R.color.white else R.color.whiteish))
-    }
+                Log.i("View Height", "View height for $position is $workingDpHeight")
+                (holder as WallViewHolder).changeHeight(workingDpHeight)
 
-    fun addNewPage(photos: List<Photo>) {
-        val start = mPhotos.size - 2
-        mPhotos.addAll(photos)
-        notifyItemRangeChanged(start, mPhotos.size)
+                photo?.let { safePhoto ->
+                    (holder as WallViewHolder).bindUnplashPhoto(safePhoto)
+                }
+            }
+        }
     }
 }
