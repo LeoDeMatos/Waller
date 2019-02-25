@@ -5,6 +5,8 @@ A newer (and finished) version of Waller was needed,  so Waller 2.0 will be rewr
 
 ### Goals
 * Migrate Waller to Architecture Components.
+* Migrate RxJava to Kotlin Coroutines.
+* Make Waller modular.
 * Convert to Kotlin, while migrating to Architecture Components.
 * Try all new Android features.
 * Learn!
